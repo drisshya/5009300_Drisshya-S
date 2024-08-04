@@ -1,0 +1,9 @@
+Concept of Recursion
+
+Recursion is a programming technique where a function calls itself directly or indirectly in order to solve a problem. It involves two key components:
+Base Case: The simplest instance of the problem, which can be solved directly without further recursion.
+Recursive Case: The part of the function that breaks the problem into smaller sub-problems, calling itself to solve these sub-problems.
+Recursion can simplify problems by breaking them down into smaller, more manageable parts. It's particularly useful for problems that exhibit a natural divide-and-conquer approach or have a repetitive structure.
+
+Time Complexity: 
+O(n), where n is the number of years.

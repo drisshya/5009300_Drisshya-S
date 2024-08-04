@@ -1,0 +1,27 @@
+Singly Linked List
+Node: Contains the task and a reference to the next node.
+TaskList: Manages the linked list operations like adding, searching, traversing, and deleting tasks.
+
+Time Complexity
+Add Task: 
+O(n) - You need to traverse the list to find the end.
+
+Search Task: 
+O(n) - You might need to traverse the entire list.
+
+Traverse Tasks: 
+O(n) - You visit each node once.
+
+Delete Task: 
+O(n) - Similar to search; you may need to traverse the list to find and delete the task.
+
+Advantages of Linked Lists Over Arrays
+Dynamic Size: Linked lists grow and shrink dynamically, which makes them flexible for varying data sizes.
+
+Efficient Insertions/Deletions: Adding or removing elements, particularly at the beginning or in the middle, can be done more efficiently compared to arrays, where elements need to be shifted.
+
+No Fixed Size: Linked lists do not require pre-allocation of memory and can expand as needed.
+
+Memory Usage: Arrays might need additional space to handle growth, while linked lists allocate memory as needed.
+
+In contrast, arrays provide constant-time access to elements by index, which can be more efficient for scenarios requiring random access. For tasks where dynamic resizing and frequent insertions/deletions are needed, linked lists are more suitable.

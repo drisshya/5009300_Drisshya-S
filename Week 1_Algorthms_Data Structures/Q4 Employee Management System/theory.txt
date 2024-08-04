@@ -1,0 +1,25 @@
+1. Array Representation in Memory
+In Java, arrays are represented as contiguous memory blocks. Each element in an array is stored sequentially, which allows for efficient index-based access.
+
+Advantages of Arrays:
+
+Constant Time Access: Direct access to elements using an index is 
+O(1).
+Simplicity: Arrays are straightforward to implement and manage.
+Cache Efficiency: Contiguous memory allocation improves cache performance.
+
+Analysis
+Add: 
+O(1) (ArrayList’s add operation is typically 
+O(1) amortized)
+Search: 
+O(n) (Linear search in the list)
+Traverse: 
+O(n) (Each element is accessed once)
+Delete: 
+O(n) (Removing by condition involves searching and removal)
+
+Limitations of Arrays/ArrayLists:
+Fixed Size (Arrays): Arrays have a fixed size which can be limiting.
+Inefficient Insertions/Deletions (ArrayLists): While ArrayList provides dynamic resizing, insertions and deletions (especially in the middle) can still be 
+O(n).

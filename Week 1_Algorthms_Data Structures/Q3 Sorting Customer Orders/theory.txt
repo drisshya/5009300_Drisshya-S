@@ -1,0 +1,47 @@
+1. Understand Sorting Algorithms
+Sorting algorithms are fundamental in computer science for organizing data efficiently. Here’s a brief explanation of the sorting algorithms mentioned:
+
+Bubble Sort:
+Description: Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.
+Time Complexity:
+Best Case: O(n) (when the array is already sorted).
+Average Case: O(n²) (comparisons and swaps).
+Worst Case: O(n²) (when the array is sorted in reverse).
+
+Insertion Sort:
+Description: Insertion Sort builds the final sorted array one item at a time. It picks elements from the unsorted portion and inserts them into the correct position in the sorted portion.
+Time Complexity:
+Best Case: O(n) (when the array is already sorted).
+Average Case: O(n²) (when the array is randomly ordered).
+Worst Case: O(n²) (when the array is sorted in reverse).
+
+Quick Sort:
+Description: Quick Sort is a divide-and-conquer algorithm. It picks an element as a pivot and partitions the array around the pivot. The pivot is then placed in its correct position, and the process is recursively applied to the subarrays.
+Time Complexity:
+Best Case: O(n log n) (when the pivot divides the array evenly).
+Average Case: O(n log n) (average performance).
+Worst Case: O(n²) (when the pivot is the smallest or largest element).
+
+Merge Sort:
+Description: Merge Sort divides the array into halves, recursively sorts each half, and then merges the sorted halves.
+Time Complexity:
+Best Case: O(n log n) (consistent performance).
+Average Case: O(n log n) (consistent performance).
+Worst Case: O(n log n) (consistent performance).
+
+Time Complexity Comparison:
+
+Bubble Sort:
+Best Case: O(n) (when the array is already sorted).
+Average Case: O(n²).
+Worst Case: O(n²) (when the array is in reverse order).
+
+Quick Sort:
+Best Case: O(n log n) (when the pivot divides the array evenly).
+Average Case: O(n log n).
+Worst Case: O(n²) (when the pivot is the smallest or largest element).
+Why Quick Sort is Preferred:
+
+Efficiency: Quick Sort generally performs better in practice than Bubble Sort due to its average time complexity of O(n log n) versus O(n²) for Bubble Sort.
+Divide and Conquer: Quick Sort’s divide-and-conquer approach helps it handle larger datasets more efficiently.
+In-Place Sorting: Quick Sort sorts the array in place with minimal additional memory usage.
